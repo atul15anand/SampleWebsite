@@ -1,0 +1,34 @@
+<html>
+<head>
+<title> Registeration Form</title>
+<style>
+
+input[type=text],input[type=email],input[type="tel"]
+{
+	width: 50%;
+	align-content: center;
+	padding: 6px 12px;
+}
+input[type="submit"]{
+	background-color: #00bfff;
+	padding: 10px 15px;
+	border-radius: 8px;
+}
+label{
+	text-align: left;
+}
+
+</style>
+</head>
+<body>
+	<center><h1> Registration Form</h1> </center>
+	<div><center><form>
+		<label style="align-content: left"><big>Email ID:</big></label><input type="email" placeholder="youremail@gmail.com" required><br>
+		<br>
+		<label style="align-content: left"><big>Name:</big><input type="text" placeholder="Your Name" required> <br><br>
+		<label style="align-content: left"><big>Phone No:</big><input type="tel" placeholder="Phone No." 
+			step="1" pattern="\d+" minlength="10" required><br><br>
+		<center><input type="submit" value="Submit" onclick="f3.html"> </center>
+	</form></center></div>
+</body>
+</html>
